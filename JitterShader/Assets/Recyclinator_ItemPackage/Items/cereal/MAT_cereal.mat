@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_postIt
+  m_Name: MAT_cereal
   m_Shader: {fileID: -6465566751694194690, guid: 24d0a50a7a901e74caa5810a9f9c8e40,
     type: 3}
   m_Parent: {fileID: 0}
@@ -29,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo_Obj_Texture:
-        m_Texture: {fileID: 2800000, guid: ea06bf193fbf92a498ceb7353f0ff101, type: 3}
+        m_Texture: {fileID: 2800000, guid: d91eb1697aa299a4ca448999bfec2500, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -90,10 +90,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Albedo_Contrast_Shift: 1.5
-    - _Albedo_Custom_Texture_Tiling: 3
+    - _Albedo_Contrast_Shift: 1
+    - _Albedo_Custom_Texture_Tiling: 2
     - _Albedo_Hard_Edges: 0
-    - _Albedo_Hue_Shift: 30
+    - _Albedo_Hue_Shift: 0
     - _Albedo_Tiling: 5
     - _Albedo_Use_Obj_Texture: 1
     - _AlphaClip: 0
@@ -104,7 +104,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
-    - _Custom_Texture_Strength: 1
+    - _Custom_Texture_Strength: 0.5
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -120,7 +120,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.1
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -135,8 +135,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _Albedo_Color_1: {r: 1, g: 0.6739572, b: 0.18396229, a: 0}
-    - _Albedo_Color_2: {r: 1, g: 0.7014926, b: 0.2688679, a: 0}
+    - _Albedo_Color_1: {r: 1, g: 0.63309115, b: 0.18431371, a: 0}
+    - _Albedo_Color_2: {r: 1, g: 0.81500995, b: 0.08018869, a: 0}
     - _Albedo_Custom_Texture_Scroll_Speed: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
